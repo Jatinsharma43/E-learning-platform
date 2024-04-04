@@ -1,0 +1,143 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+border: none;
+text-decoration: none;
+color: aliceblue;
+}
+body{
+    background-color: gray;
+    padding-left: 300px;
+    transition: .1s linear;
+}
+body.active{
+   padding-left: 0px;
+}
+.header{
+    position: sticky;
+    background-color: black;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    border-bottom: 2px solid black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.name{
+    font-size: 40px;
+
+}
+.name:hover{
+    font-weight: 800;
+}
+.search-bar{
+    width: 400px;
+    display: flex;
+    gap: 4px;
+}
+
+.search{
+    width: 370px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+
+}
+.search-bar button{
+    width: 30px;
+    background-color:#35374B;
+    font-size: 19px;
+    cursor: pointer;
+    
+
+}
+.search-bar button:hover{
+    
+    border: 1px double white;
+    border-radius: 5px;
+}
+.icon{
+    width: 100px;
+    display: flex;
+    gap: 7px;
+    
+}
+.menu{
+    width: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.icon i:hover{
+    color:palevioletred ;
+}
+.logout{
+    width: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.side-bar-instructor{
+    position: fixed;
+   top: 0; left: 0;
+   width: 300px;
+   background-color: rgb(3, 3, 3);
+   height: 100vh;
+   z-index: 2000;
+   border-right: 2px solid whitesmoke;
+   transition: .1s linear;
+}
+
+.side-bar-instructor.Active{
+    left: -300px;
+}
+.profile{
+    display: block;
+    padding: 2px;
+    margin: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.profile img{
+    height: 120px;
+   width: 120px;
+   border-radius: 50%;
+   
+}
+.instructor-name{
+    font-size: 30px;
+    font-weight: 600;
+    color:whitesmoke;
+}
+.role{
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.navbar i{
+    margin: 6px;
+    color: whitesmoke;
+}
+.navbar span{
+    color: whitesmoke;
+}
+
+
+.navbar a{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 50px; 
+   
+}
+.navbar a:hover i{
+    margin-left: 15px;
+    color: rgb(136, 39, 39);
+}
