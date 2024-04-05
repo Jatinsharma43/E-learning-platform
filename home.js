@@ -1,15 +1,17 @@
 let body = document.body
-let side = document.querySelector('.side-bar-instructor');
+let side1= document.querySelector('.side-bar-instructor');
+let side2 = document.querySelector('.side-bar-student');
 
 
+document.querySelector('#menu-btnn').onclick = () => {
+    side1.classList.toggle('Active');
+    body.classList.toggle('active');
+}
 document.querySelector('#menu-btn').onclick = () => {
-    side.classList.toggle('Active');
+    side2.classList.toggle('Active');
     body.classList.toggle('active');
 }
 
-document.querySelector('#logout-btn').onclick = () => {
-    window.location.href = "log.html"
-}
 
 function changeform() {
     let change = document.querySelector('.instructor-login');
