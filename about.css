@@ -32,12 +32,14 @@ body{
     padding: 10px;
     display: flex;
     margin: 4px;
-    justify-content: start;
+    flex-direction: row-reverse;
+   
+    
 }
 
  .fo-img{
-    position: absolute;
-    right: 0px;
+    
+    justify-content: center;
  } 
 .fo-img img{
     border-radius: 9px;
@@ -58,6 +60,8 @@ body{
     margin: 4px;
     color: black;
     left: 10px;
+    margin-right: 50px;
+    flex-grow: 1;
 }
 
 .our-mission{
@@ -87,4 +91,5 @@ body{
     text-align: center;
     margin: 4px;
     color: black;
+    flex-grow: 1;
 }

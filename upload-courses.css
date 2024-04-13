@@ -1,0 +1,57 @@
+.add-courses-container{
+    display: flex;
+    justify-content: space-around;
+}
+.add-courses{
+    background-color: whitesmoke;
+    margin: 10px;
+   padding: 10px;
+   width: 500px;
+   height: 500px;
+   text-align: center;
+   border-radius: 7px;
+
+}
+
+.add-courses-img{
+    width: 400px;
+    height: 400px;
+}
+.add-courses h1{
+    text-align: center;
+    color: black;
+    font-size: 39px;
+    margin-bottom: 15px;
+}
+.add-courses form label{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.add-courses form input{
+    width: 300px;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.add-courses form textarea{
+    width: 300px;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.add-courses form .course-description{
+    position: relative; 
+    bottom: 60px; 
+}
+.add-courses form button{
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 180px;
+    position: relative;
+    left: 40px;
+}
