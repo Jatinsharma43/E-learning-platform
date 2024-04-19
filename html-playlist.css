@@ -1,0 +1,105 @@
+.main .course-box{
+    width: 96%;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+.main .course-box .courses-image-description {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+   
+}
+.main .course-box .courses-image-description img{
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    margin-left: 8px;
+}
+.main .course-box .courses-image-description .courses-description{
+    font-size: 20px;
+    margin-top: 90px;
+    margin-right: 10px;
+
+}
+.main .course-box  .course-author{
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-bottom: 3px;
+    font-size: 28px;
+    position: relative;
+    bottom: 7px;
+}
+.main .course-box  .courses-heading{
+    
+    margin-left: 45%;
+    margin-bottom: 8px;
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+}
+.playlist-section .playlist-videos{
+    width: 96%;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow:1;
+}
+.playlist-videos-box{
+    background-color: whitesmoke;
+    width: 450px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+   flex-grow: 1;
+}
+.playlist-videos-box button{
+    color: black;
+    width: 130px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: rgba(146, 69, 69, 0.5);
+    cursor: pointer;
+    margin-bottom: 7px;
+    margin-left: 43%;
+    font-size: 20px;
+    font-weight: 800;
+}
+.playlist-videos-box button:hover{
+    background-color: rgb(138, 61, 61);
+
+}
+.playlist-videos-box .playlist-videos-img{
+    display: flex;
+   
+
+}
+.playlist-videos-box .playlist-videos-img img{
+    width: 130px;
+    height: 140px;
+    margin: 15px;
+    
+}
+.playlist-videos-box .playlist-videos-img h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+    position: relative;
+    top: 13px;
+}
+.playlist-videos-box .playlist-videos-img h3{
+    font-size: 15px;
+    color: black;
+    position: relative;
+   top: 20px;
+   margin-right: 8px;
+   font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

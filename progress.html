@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="progress.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="home2.html" class="name">eduhub..</a>
+            <div class="search-bar">
+                <input type="text" class="search" maxlength="100" placeholder="search courses...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="icon">
+                <div class="menu" id="menu-btn" onclick="side()"><i class="fa-solid fa-bars"></i></div>
+                <div class="logout" id="logout-btn" onclick="location.href='log.html'"><i
+                        class="fa-solid fa-arrow-right-from-bracket"></i></div>
+            </div>
+        </section>
+
+    </header>
+    <div class="side-bar-student">
+        <div class="profile">
+            <img src="adult-1260380_1920.jpg" alt="">
+            <h3 class="student-name">Harshit sharma</h3>
+            <p class="role">student</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="home2.html"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a>
+
+            <a href="about2.html"><i class="fa-regular fa-folder"></i><span>About</span></a>
+            <a href="view-courses.html"><i class="fa-brands fa-leanpub"></i><span>view
+                    courses</span></a>
+            <a href="progress.html"><i class="fa-solid fa-list-check"></i><span>progress</span></a>
+            <a href="contact2.html"><i class="fa-solid fa-phone"></i><span>Contact us</span></a>
+        </nav>
+    </div>
+    <script src="home.js"></script>
+</body>
+<section class="progress">
+    <div class="progress-heading">
+        <h1>Dive into the learning</h1>
+    </div>
+    <div class="progress-course-container">
+        <div class="enrolled-course">
+            <h1>Enrolled courses</h1>
+        </div>
+        <br>
+        <div class="flex-img">
+            <div class="progress-img">
+                <img src="pie-chart.png" alt="">
+            </div>
+            <div class="progress-course-box">
+                <div class="progress-course-name">
+                    <h1>Complete HTML Tutorial</h1>
+                </div>
+                <br>
+                <div class="progress-course-progress">
+                    <div class="progress-flex">
+                        <div class="progress-box">
+                            <label for="html-1">Introduction to HTML : </label>
+                            <progress id="html-1" value="100" max="100">100</progress>
+                        </div>
+                        <div class="progress-box">
+                            <label for="html-1">HTML Elements and Attributes : </label>
+                            <progress id="html-1" value="95" max="100">100</progress>
+                        </div>
+                        <div class="progress-box">
+                            <label for="html-1">HTML Best Practices : </label>
+                            <progress id="html-1" value="90" max="100">100</progress>
+                        </div>
+                        <div class="progress-box">
+                            <label for="html-1">HTML Forms and Input : </label>
+                            <progress id="html-1" value="87" max="100">100</progress>
+                        </div>
+                        <div class="progress-box">
+                            <label for="html-1">HTML Multimedia and Graphics : </label>
+                            <progress id="html-1" value="85" max="100">100</progress>
+                        </div>
+                        <div class="progress-box">
+                            <label for="html-1">HTML Layout and Structure : </label>
+                            <progress id="html-1" value="50" max="100">100</progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-score">
+                    <h2>Score : 79</h2>
+                </div>
+
+            </div>
+        </div>
+        <br><br><br>
+        <div class="assignment-flex">
+            <div class="assignment-box">
+                <div class="heading-assignment">
+                    <h1>Assignment-1</h1>
+                </div>
+                <div class="status-assignment">
+                    <h2>Status : completed</h2>
+                </div>
+                <div class="submit-assignment">
+                    <p>Assignment submitted on 12th january</p>
+                </div>
+            </div>
+            <div class="assignment-box">
+                <div class="heading-assignment">
+                    <h1>Assignment-2</h1>
+                </div>
+                <div class="status-assignment">
+                    <h2>Status : completed</h2>
+                </div>
+                <div class="submit-assignment">
+                    <p>Assignment submitted on 29th january</p>
+                </div>
+            </div>
+            <div class="assignment-box">
+                <div class="heading-assignment">
+                    <h1>Assignment-3</h1>
+                </div>
+                <div class="status-assignment">
+                    <h2>Status : completed</h2>
+                </div>
+                <div class="submit-assignment">
+                    <p>Assignment submitted on 4th feburary</p>
+                </div>
+            </div>
+            <div class="assignment-box">
+                <div class="heading-assignment">
+                    <h1>Assignment-4</h1>
+                </div>
+                <div class="status-assignment">
+                    <h2>Status : completed</h2>
+                </div>
+                <div class="submit-assignment">
+                    <p>Assignment submitted on 11th january</p>
+                </div>
+            </div>
+            <div class="assignment-box">
+                <div class="heading-assignment">
+                    <h1>Assignment-5</h1>
+                </div>
+                <div class="status-assignment">
+                    <h2>Status : pending</h2>
+                </div>
+                <div class="submit-assignment">
+                    <p>Last date of submission is 20th feburary</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    
+    </div>
+   
+</section>
+
+
+
+</html>

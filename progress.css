@@ -1,0 +1,116 @@
+.progress{
+    position: relative;
+}
+.progress .progress-heading{
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.progress .progress-heading h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+
+}
+    
+
+ .progress-course-container{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+}
+ .progress-course-container .progress-course-box{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40%;
+    height: 70%;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+ .progress-course-container .enrolled-course h1{
+    margin-left: 30px;
+    color: black;
+    font-size: 50px;
+    
+}
+.progress-course-container .flex-img{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-course-container .flex-img img{
+    margin-left: 10px;
+}
+.progress-course-container .progress-course-box .progress-course-name{
+    width: 100%;
+}
+.progress-course-container .progress-course-box .progress-course-name h1{
+    color: black;
+    font-size: 25;
+    font-weight: 800;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.progress-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.progress-flex .progress-box{
+    background-color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+}
+.progress-flex .progress-box label{
+    margin-left: 10px;
+    
+   
+}
+.progress-flex .progress-box progress{
+    margin-top: 10px;
+    margin-right: 10px;
+  
+}
+.progress-score h2{
+    font-size: 28px;
+   color: black;
+   text-align: center;
+   
+}
+.assignment-flex{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 19px;
+    
+}
+.assignment-flex .assignment-box{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.assignment-flex .assignment-box .heading-assignment h1{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.assignment-flex .assignment-box .status-assignment h2{
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.assignment-flex .assignment-box .submit-assignment p{
+    color: black;
+    font-weight: 700;
+    margin-left: 5px;
+
+}
+
+

@@ -10,10 +10,7 @@ function side() {
     side2.classList.toggle('Active');
     body.classList.toggle('active');
 }
-// document.querySelector('#menu-btn').onclick = () => {
-//     side2.classList.toggle('Active');
-//     body.classList.toggle('active');
-// }
+
 
 
 function changeform() {
@@ -113,4 +110,5 @@ function gonext() {
 
 
 }
+
 

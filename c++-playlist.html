@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ playlist</title>
+    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="html-playlist.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="name">eduhub..</a>
+            <div class="search-bar">
+                <input type="text" class="search" maxlength="100" placeholder="search courses...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="icon">
+                <div class="menu" id="menu-btn" onclick="side()"><i class="fa-solid fa-bars"></i></div>
+                <div class="logout" id="logout-btn" onclick="location.href='log.html'"><i
+                        class="fa-solid fa-arrow-right-from-bracket"></i></div>
+            </div>
+        </section>
+
+    </header>
+    <div class="side-bar-student">
+        <div class="profile">
+            <img src="adult-1260380_1920.jpg" alt="">
+            <h3 class="student-name">Harshit sharma</h3>
+            <p class="role">student</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="home2.html"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a>
+            <hr>
+            <a href="about.html"><i class="fa-regular fa-folder"></i><span>About</span></a>
+            <a href="view-courses.html"><i class="fa-brands fa-leanpub"></i><span>view
+                    courses</span></a>
+            <a href="progress.html"><i class="fa-solid fa-list-check"></i><span>progress</span></a>
+            <a href="contact2.html"><i class="fa-solid fa-phone"></i><span>Contact us</span></a>
+        </nav>
+    </div>
+    <section class="playlist-section">
+        <div class="main">
+            <div class="course-box">
+                <div class="courses-image-description">
+                    <img src="c-.png" alt="">
+                    <p class="courses-description">The C++ playlist on eduhub is a comprehensive tutorial for learning
+                        C++, an object-oriented programming language that is widely used for system programming, game
+                        development, and other applications. The playlist is created by Hitesh Kumar and covers all
+                        essential C++ concepts, including classes, objects, inheritance, polymorphism, templates,
+                        exceptions, and standard library. The playlist is designed for beginners and includes practical
+                        examples and exercises to help learners gain hands-on experience. </p>
+                </div>
+                <h1 class="course-author">Hitesh kumar</h1>
+                <h2 class="courses-heading">Complete C++ tutorial</h2>
+            </div>
+            <br>
+            <br>
+            <div class="playlist-videos">
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>Introduction to C++ </h1>
+                            <h3>This video covers the basics of C++, including its history, syntax, and structure. It
+                                also introduces the concept of C++ classes, objects, and data types.</h3>
+                        </div>
+                    </div>
+                    <div><button>Watch now</button></div>
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>C++ Functions and Control Structures </h1>
+                            <h3>This video dives deeper into C++ functions and control structures, explaining how to
+                                define and use them to control the flow of code. It covers common C++ functions and control structures such as loops and
+                                conditional statements.</h3>
+
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>C++ Classes and Objects</h1>
+                            <h3>This video covers C++ classes and objects, including how to define and use them to
+                                create reusable and maintainable code. It explains how to use classes and objects to
+                                encapsulate data and behavior, and how to use access specifiers to control access to
+                                class members.
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>C++ Inheritance</h1>
+                            <h3>This video covers C++ inheritance and polymorphism, including how to use inheritance to
+                                create hierarchical relationships between classes and how to use polymorphism to achieve
+                                dynamic binding and runtime type identification.</h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>C++ Exception Handling</h1>
+                            <h3>This video covers C++ exception handling, including how to use try, catch, and throw
+                                statements to handle exceptions and errors in code, and how to use standard exception
+                                classes to handle common exceptions.
+
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="c-.png" alt="">
+                        <div>
+                            <h1>C++ Best Practices</h1>
+                            <h3>This video discusses best practices for writing C++ code, including using meaningful
+                                variable names, commenting code, and testing code thoroughly. It also covers common C++
+                                mistakes and how to avoid them.</h3>
+                        </div>
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+
+            </div>
+    </section>
+    <script src="home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python playlist</title>
+    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="html-playlist.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="name">eduhub..</a>
+            <div class="search-bar">
+                <input type="text" class="search" maxlength="100" placeholder="search courses...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="icon">
+                <div class="menu" id="menu-btn" onclick="side()"><i class="fa-solid fa-bars"></i></div>
+                <div class="logout" id="logout-btn" onclick="location.href='log.html'"><i
+                        class="fa-solid fa-arrow-right-from-bracket"></i></div>
+            </div>
+        </section>
+
+    </header>
+    <div class="side-bar-student">
+        <div class="profile">
+            <img src="adult-1260380_1920.jpg" alt="">
+            <h3 class="student-name">Harshit sharma</h3>
+            <p class="role">student</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="home2.html"><i class="fa-solid fa-house-chimney"></i><span>Home</span></a>
+            <hr>
+            <a href="about2.html"><i class="fa-regular fa-folder"></i><span>About</span></a>
+            <a href="view-courses.html"><i class="fa-brands fa-leanpub"></i><span>view
+                    courses</span></a>
+            <a href="progress.html"><i class="fa-solid fa-list-check"></i><span>progress</span></a>
+            <a href="contact2.html"><i class="fa-solid fa-phone"></i><span>Contact us</span></a>
+        </nav>
+    </div>
+    <section class="playlist-section">
+        <div class="main">
+            <div class="course-box">
+                <div class="courses-image-description">
+                    <img src="python.png" alt="">
+                    <p class="courses-description">The Python playlist on eduhub is a comprehensive tutorial for learning Python, a popular and versatile programming language used for various applications such as web development, data analysis, machine learning, and artificial intelligence. The playlist is created by Hiten Prajapati and covers all essential Python concepts, including variables, data types, functions, loops, and conditional statements. The playlist is designed for beginners and includes practical examples and exercises to help learners gain hands-on experience. The playlist also includes a playlist of video tutorials for easy learning. The playlist is highly rated by learners and has helped many people learn Python and build their own applications. </p>
+                </div>
+                <h1 class="course-author">Hiten prajapati</h1>
+                <h2 class="courses-heading">Complete python tutorial</h2>
+            </div>
+            <br>
+            <br>
+            <div class="playlist-videos">
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Introduction to Python</h1>
+                            <h3>This video covers the basics of Python, including its history, syntax, and structure. It also introduces the concept of Python variables, data types, and operators.</h3>
+                        </div>
+                    </div>
+                    <div><button>Watch now</button></div>
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Python Functions and Modules </h1>
+                            <h3>This video dives deeper into Python functions and modules, explaining how to define and use them to organize code. It covers common Python functions such as built-in functions, user-defined functions, and modules.</h3>
+
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Python Data Structures</h1>
+                            <h3>This video covers Python data structures, including lists, tuples, sets, and dictionaries. It explains how to create and manipulate these data structures, and how to use them to store and retrieve data.
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Python File I/O</h1>
+                            <h3> This video covers Python file input/output operations, including reading from and writing to files. It explains how to open, close, and manipulate files, and how to handle file exceptions.</h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Python Exception Handling</h1>
+                            <h3>This video discusses Python exception handling, including try/except blocks, raise statements, and assert statements. It explains how to handle exceptions and errors in code, and how to write robust and error-free code.</h3>
+                        </div>
+
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+                <div class="playlist-videos-box">
+                    <div class="playlist-videos-img"><img src="python.png" alt="">
+                        <div>
+                            <h1>Python Best Practices</h1>
+                            <h3>This video discusses best practices for writing Python code, including using PEP 8 style guidelines, writing clean and readable code, and testing and debugging code. It also covers common Python mistakes and how to avoid them.</h3>
+                        </div>
+                    </div>
+                    <div><button>Watch now</button></div>
+
+                </div>
+
+            </div>
+    </section>
+    <script src="home.js"></script>
+</body>
+
+</html>
